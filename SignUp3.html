@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Sign Up Form</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico">
+    <link rel="stylesheet" href="SignUp.css">
+</head>
+<body>
+<div class="containner">
+<form class="form" id="profile">
+    <h1 class="form_title">Staff Profile</h1>
+    <div class="form_message form--message--error"></div>
+    <div class="form__input-group">
+        <input type="text" id="firstName" class="form__input" autofocus placeholder="FirstName">
+        <div class="form__input-error-message"></div>
+    </div>
+    <div class="form__input-group">
+        <input type="text" id="lastName" class="form__input" autofocus placeholder="LastName">
+    </div>
+    <div class="form__input-group">
+        <input type="text" id="gender" class="form__input" autofocus placeholder="Gender">
+    </div>
+    <div class="form__input-group">
+        <input type="integer" id="age" class="form__input" autofocus placeholder="Age" maxlength="3">
+    </div>
+    <div class="form__input-group">
+        <input type="text" id="religion" class="form__input" autofocus placeholder="Religion">
+    </div>
+    <div class="form__input-group">
+        <input type="text" id="stateofOrigin" class="form__input" autofocus placeholder="StateofOrigin">
+    </div>
+    <div class="form__input-group">
+        <input type="text" id="localGovtArea" class="form__input" autofocus placeholder="LGA">
+    </div>
+    <div class="form__input-group">
+        <input type="integer" id="phoneNumber" class="form__input" autofocus placeholder="PhoneNumber" maxlength="11">
+    </div>
+    <div class="form__input-group">
+        <input type="text" class="form__input" autofocus placeholder="Email Address">
+    </div>
+    <div class="form__input-group">
+        <input type="homeAddress" class="form__input" autofocus placeholder="Address">
+    </div>
+    <div class="form__input-group">
+        <input type="driversLicence" class="form__input" autofocus placeholder="DriversLicence">
+    </div>
+    <button class="form__button" type="submit">Submit</button>
+    <p class="form__text">
+        <a  class="form__link" href="" id="link">Reload the page.</a></p>
+</form>
+</div>
+<script src="SignUp.js"></script>
+</body>
+</html>
